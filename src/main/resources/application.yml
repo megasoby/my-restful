@@ -1,0 +1,10 @@
+server:
+  port: 8088
+
+spring:
+  output:
+    ansi.enabled: always
+
+logging:
+  level:
+    org.springframework: DEBUG
