@@ -1,4 +1,4 @@
-package com.example.myrestful.helloworld.user;
+package com.example.myrestful.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
