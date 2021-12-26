@@ -6,6 +6,7 @@ spring:
     ansi.enabled: always
   messages:
     basename: messages
+    fallback-to-system-locale: false
 
 logging:
   level:
