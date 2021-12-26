@@ -10,6 +10,7 @@ import java.util.List;
 @RestController
 public class UserController {
     private UserDaoService service;
+    private String name = "";
 
     public UserController(UserDaoService service) {
         this.service = service;
