@@ -25,5 +25,6 @@ public class UserController {
     @PostMapping("/users")
     public void createUser(@RequestBody User user) {
         User savedUser = service.save(user);
+        String name = "";
     }
 }
