@@ -4,6 +4,8 @@ server:
 spring:
   output:
     ansi.enabled: always
+  messages:
+    basename: messages
 
 logging:
   level:
